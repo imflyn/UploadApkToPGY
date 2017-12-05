@@ -1,0 +1,9 @@
+[Info]
+my_name =
+from_address =
+password =
+to_address =
+smtp_server =
+smtp_server_port =
+
+
