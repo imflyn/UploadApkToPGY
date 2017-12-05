@@ -52,7 +52,7 @@ def upload_file(path):
                     url = "https://www.pgyer.com/" + json.loads(response)['data']['buildShortcutUrl']
                     print("apk 文件上传成功 链接为：" + url)
                     mail_sender.send(
-                        "Android Employee " + BRANCH + " " + BUILD_TYPE + " " + FLAVORS + " APK 下载文件 "+ date,
+                        "[" + date + "] Android Employee " + BRANCH + " " + FLAVORS + " " + BUILD_TYPE + " APK 下载文件 ",
                         "APK编译时间：" + date + "\n" +
                         "APK 下载链接：" + url,
                         lambda: print("发送邮件成功！！"),
