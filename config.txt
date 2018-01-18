@@ -1,9 +1,7 @@
 [Info]
-my_name =
-from_address =
-password =
-to_address =
-smtp_server =
-smtp_server_port =
-
-
+my_name =Your name
+from_address =your mail
+password =your password
+to_address =addressee 
+smtp_server =email server address
+smtp_server_port =email server port 
